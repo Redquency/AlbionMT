@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbionMT", "AlbionMT.csproj", "{C7899E18-B4B8-4C50-A73D-FEFC7B9D1617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7899E18-B4B8-4C50-A73D-FEFC7B9D1617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7899E18-B4B8-4C50-A73D-FEFC7B9D1617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7899E18-B4B8-4C50-A73D-FEFC7B9D1617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7899E18-B4B8-4C50-A73D-FEFC7B9D1617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401925D6-5A94-4FA4-9D6C-E26F9BA474C4}
+	EndGlobalSection
+EndGlobal
