@@ -68,7 +68,11 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Carleon,
@@ -80,8 +84,9 @@
             this.FortSterling});
             this.dataGridView1.Location = new System.Drawing.Point(12, 80);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(748, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(788, 150);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
@@ -89,36 +94,43 @@
             // 
             this.Carleon.HeaderText = "Carleon";
             this.Carleon.Name = "Carleon";
+            this.Carleon.ReadOnly = true;
             // 
             // BlackMarket
             // 
             this.BlackMarket.HeaderText = "Black Market";
             this.BlackMarket.Name = "BlackMarket";
+            this.BlackMarket.ReadOnly = true;
             // 
             // Martloc
             // 
             this.Martloc.HeaderText = "Martloc";
             this.Martloc.Name = "Martloc";
+            this.Martloc.ReadOnly = true;
             // 
             // Lymhurst
             // 
             this.Lymhurst.HeaderText = "Lymhurst";
             this.Lymhurst.Name = "Lymhurst";
+            this.Lymhurst.ReadOnly = true;
             // 
             // Thetford
             // 
             this.Thetford.HeaderText = "Thetford";
             this.Thetford.Name = "Thetford";
+            this.Thetford.ReadOnly = true;
             // 
             // Bridgewatch
             // 
             this.Bridgewatch.HeaderText = "Bridgewatch";
             this.Bridgewatch.Name = "Bridgewatch";
+            this.Bridgewatch.ReadOnly = true;
             // 
             // FortSterling
             // 
             this.FortSterling.HeaderText = "Fort Sterling";
             this.FortSterling.Name = "FortSterling";
+            this.FortSterling.ReadOnly = true;
             // 
             // MainForm
             // 
