@@ -16,13 +16,16 @@ namespace AlbionMT
         [STAThread]
         static void Main()
         {
+
+     
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
-
-
-
          
+        }
+        public static IEnumerable<T> WhereNotNull<T>(this IEnumerable<T> sequence)
+        {
+            return sequence.Where(e => e != null);
         }
     }
 }
