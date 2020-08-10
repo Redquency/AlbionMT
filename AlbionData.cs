@@ -20,6 +20,15 @@ namespace AlbionMT
             Martlock
         }
 
+        public enum Quality
+        {
+            Normal,
+            Good,
+            Outstanding,
+            Excellent,
+            Masterpiece
+        }
+
         public List<Models.Item> LoadItems()
         {
             using (StreamReader r = new StreamReader("data/items.json"))
